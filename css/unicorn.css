@@ -1,5 +1,68 @@
+
+html { font-size: 16px }
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
 /* MAIN UNICORN COLORS */
-.unicorn-red {
-	background-color: red;
+.unicorn-danger {
+	background-color: #e83322;
 	color: white;
+}
+
+.unicorn-success {
+	background-color: #48c960;
+	color: white;
+}
+
+.unicorn-primary {
+	background-color: #1d7ee0;
+	color: white;
+}
+
+.unicorn-warning {
+	background-color: #ffd107;
+	color: black;
+}
+
+.unicorn-pink {
+	background-color: #f44274;
+	color: white;
+}
+
+.unicorn-purple {
+	background-color: #d115d8;
+	color: white;
+}
+
+.unicorn-dark {
+	background-color: #172a3d;
+	color: white;
+}
+
+.unicorn-light {
+	background-color: #f9fcff;
+	color: black;
+}
+
+.unicorn-grey {
+	background-color: #e8edf2;
+	color: black;
+}
+
+/* BUTTON STYLES */
+.button {
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 1rem;
+	border: 1px solid transparent;
+}
+
+.square {
+	border-radius: 0px;
+}
+
+.rounded {
+	border-radius: 20px;
 }
