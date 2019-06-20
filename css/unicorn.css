@@ -45,12 +45,29 @@
 	color: black;
 }
 
+.unicorn-cyan {
+	background-color: #42d9f4;
+	color: white;
+}
+
+.unicorn-brownie {
+	background-color: #5b3e35;
+	color: white ;
+}
+
+.unicorn-orange {
+	background-color: #f98304;
+	color: white;
+}
+
 /* BUTTON STYLES */
 .button {
 	padding: 10px 15px;
 	border-radius: 5px;
 	font-size: 1rem;
 	border: 1px solid transparent;
+	cursor: pointer;
+
 }
 
 .square {
